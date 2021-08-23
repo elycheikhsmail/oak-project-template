@@ -1,23 +1,10 @@
 // for start app run this code
 // deno run --allow-all app.ts
 // or see cli.md
-function compareDenoVersion(denoSupportedVersion:string){
-    const { deno } = Deno.version
-    console.log("deno version : ", deno)
-    if(deno != denoSupportedVersion){
-        let str = ""
-        str += "you are using deno version : "+deno+"\n"
-        str += "this project code is tested with deno verion : "+denoSupportedVersion+"\n"
-        str += "if this project dont work for you open issues on github"
-        console.log(str)
-    }  
-    
-}
 
-compareDenoVersion("1.13.1")
-
+import { settings } from "./config/mod.ts";
+settings.compareDenoVersion(settings.denoSupportedVersion)
  
-
 import { app } from "./server/add-middlwares-after.ts";
 import { parse } from "https://deno.land/std@0.105.0/flags/mod.ts";
 

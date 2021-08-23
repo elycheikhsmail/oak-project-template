@@ -1,4 +1,6 @@
-construire mysql-oak-readybacked from scratch
+g/copy certain partie du code
+changer url
+ 
 always link to a specific verion 
 cli for g projects
 cli for updating url(version) in ts/js code in file
