@@ -28,11 +28,16 @@
 <hr>
 
 ## how to use ?
-clone the repo
+ 
+git clone https://github.com/elycheikhsmail/oak-project-template.git
+
+cd oak-project-template
+
+deno run --allow-all app.ts
 
 run the command 
 
-open the url      in your browser
+open the url   http://localhost:3000/   in your browser
 
 congratultion you will see hello word
 
