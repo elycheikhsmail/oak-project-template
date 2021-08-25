@@ -1,0 +1,20 @@
+available command are :
+
+deno run --allow-all --unstable cli.ts  gController todo index get /
+    appName:string => todo
+    controllerName: => index
+    contollerMethod: methods(get, post,..) =>
+    controllerUrlPrefix:string =>  /
+
+    will gererate oak controller 
+ 
+
+deno run --allow-all --unstable cli.ts  gApp todo /todo
+    appName:string =>
+    appUrlPrefix:string => "/todo"
+    
+    will gererate oak app
+
+deno run --allow-all --unstable cli.ts  gApp
+    will gererate oak app
+ 

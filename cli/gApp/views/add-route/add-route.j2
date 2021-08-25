@@ -1,0 +1,5 @@
+//import route
+import {  routes as {{appName1}}Routes } from "../{{appName}}/mod.ts";
+app.use({{appName1}}Routes.prefix("{{urlPrefix}}").routes())
+app.use({{appName1}}Routes.allowedMethods())
+//end import route

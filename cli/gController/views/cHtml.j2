@@ -1,0 +1,13 @@
+import { Context } from "../deps-managed.ts";
+
+// deno-lint-ignore require-await
+export async function {{controllerName}}Controller(ctx: Context) {
+  ctx.response.body = "<h1> hi from <br>|-- {{appName}} <br> |---- {{controllerName}}Controler </h1>";
+
+  ctx.response.headers.append(
+    "content-type",
+    "text/html",
+  );
+
+
+}

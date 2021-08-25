@@ -1,3 +1,11 @@
+cli approch
+
+function
+defaul args
+call
+
+cli est utlise pour appeller une fonction selement
+
 g/copy certain partie du code
 changer url
  
